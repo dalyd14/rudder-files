@@ -1,7 +1,7 @@
 import { cryptoJsFunc } from "cryptoJs"
 
 export function transformEvent(event, metadata) {
-    const value = "RudderEncrypt%3AU2FsdGVkX18%2BSDAst3Ywuas3pitv5wDpqxb2FzYJ3bHYod5HKQeSPj2ITX7SsW7ZuM6jnDr9RImZfyLlhwpvlQ%3D%3D";
+    const value = "RudderEncrypt%3AU2FsdGVkX19bRZvvLcvglTBt8fbAf8wkt2S%2FBVrIypBJiI9KzWeKjmqGlD06ywZ4J5lURMWHvL%2Fio8OoXX%2B2ZQ%3D%3D";
     const prefix = "RudderEncrypt";
     
     const anonIdCookie = decodeURIComponent(value.slice(prefix.length));
